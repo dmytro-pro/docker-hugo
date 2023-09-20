@@ -1,4 +1,4 @@
-image: klakegg/hugo
+image: zorkyy/hugo
 version: 0.112.0
 
 platforms:
