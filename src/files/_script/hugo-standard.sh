@@ -40,8 +40,8 @@ wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${
 mkdir -p /files/usr/lib/hugo
 
 # Unpack downloaded content
-#tar -zxf hugo_${HUGO_VERSION}_Linux-${HUGO_ARCH}.tar.gz -C /files/usr/lib/hugo
-tar -zxf hugo-standard-${HUGO_VERSION}-linux-${HUGOGURU_ARCH}.tar.gz -C /files/usr/lib/hugo
+tar -zxf hugo_${HUGO_VERSION}_Linux-${HUGO_ARCH}.tar.gz -C /files/usr/lib/hugo
+#tar -zxf hugo-standard-${HUGO_VERSION}-linux-${HUGOGURU_ARCH}.tar.gz -C /files/usr/lib/hugo
 
 # Verify executable
 /files/usr/lib/hugo/hugo version
